@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  --color-peace-50: #f8fbf9;
+  --color-peace-100: #edf4f1;
+  --color-peace-200: #d6e7e1;
+  --color-peace-300: #b3d2c7;
+  --color-peace-400: #88b5a7;
+  --color-peace-500: #629787;
+  --color-peace-600: #4c786a;
+  --color-peace-700: #3f6055;
+  --color-peace-800: #334d44;
+  --color-peace-900: #293d36;
+  --color-peace-950: #14211c;
+
+  --color-gold-50: #faf7eb;
+  --color-gold-100: #f3ebd0;
+  --color-gold-200: #e6d5a1;
+  --color-gold-300: #d6bc6d;
+  --color-gold-400: #c7a143;
+  --color-gold-500: #b08726;
+  --color-gold-600: #946d1b;
+  --color-gold-700: #775317;
+  --color-gold-800: #614115;
+  --color-gold-900: #4e3213;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-peace-50);
+  color: var(--color-peace-950);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom visual styles */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-peace-200);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-peace-300);
+}

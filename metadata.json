@@ -1,0 +1,6 @@
+{
+  "name": "El Cofre del Padre Benjamín",
+  "description": "Una jornada espiritual de siete días que guarda manuscritos sagrados, reflexiones, audios guiados y un diario personal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
